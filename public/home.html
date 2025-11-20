@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+     <link rel="stylesheet" href="css/product_container.css">
+        <link rel="stylesheet" href="css/discount-sale.css">
+         <link rel="stylesheet" href="css/store.css">
+ 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css">
+
+</head>
+<body>
+  
+    <!--navber-->
+  <div class="home-page">
+    <div class="nav">
+    <div class="logo">
+      <h4>Plantora</h4>
+    </div>
+    <div class="navmenu">
+      <ul class="navul">
+     <li class="navli"><a href="index.html" >HOME</a></li>  
+       <li class="navli"><a href="#main" >SHOP</a></li>  
+       <li class="navli"><a href="#contactus" >CONTACT</a></li>  
+       <li class="navli"><a href="#" >FAQ</a></li>  
+       <li class="navli"><a href="#" >SELLER</a></li> 
+        <li class="navli"><a href="profile.html" >PROFILE</a></li>  
+      </ul>
+      <div class="navbtn">
+        <button type="button"id="login-btn">LOGIN</button>
+      </div>
+    </div>  
+   
+   </div>
+   <!--second menu-->
+   <div class="nav2">
+    <div class="menu">
+     <button id="menuBtn"><i class="fa-solid fa-bars"></i></button>
+  </div> 
+   <div class="search">
+  <input type="text" id="search" placeholder="Search">
+  <button id="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+</div>
+  <div class="cart"id=cartdiv>
+  <button type="button" id="cart">
+  <i class="fa-solid fa-cart-shopping"></i>
+  <span id="cart-count">0</span>
+</button>
+</div>
+   </div>
+<!--banner-->
+<div class="landinglogo">
+  <div>
+<img src="images/Jamdani_Saree_2.webp"  >
+  </div>
+  </div>
+  <!-- Category Buttons -->
+<div class="category">
+      <button class="category-btn"
+      style="background-color: #02532B;
+ min-height: 80px;
+ color:white;
+ width: 100px;
+ border: solid #02532B;
+ border-radius: 20px;">Tangail</button>
+      <button class="category-btn">Dhaka</button>
+      <button class="category-btn">Rajshahi</button>
+      <button class="category-btn">Bogura</button>
+      <button class="category-btn">Natore</button>
+      <button class="category-btn">Norshindi</button>
+    </div>
+  <!--product-category-->
+  <div class="product-heading">
+    <h5 class="mb-3">Explore products</h5>
+
+<div class="category-buttons">
+  <button class="cat-btn active" data-category="all">All</button>
+  <button class="cat-btn" data-category="fruits">Fruits</button>
+  <button class="cat-btn" data-category="clothes">Clothes</button>
+  <button class="cat-btn" data-category="crafts">Crafts</button>
+  <button class="cat-btn" data-category="sweets">Sweets</button>
+</div>
+  </div>
+ 
+
+<div class="product-row" id="product-container"></div>
+<!--selected product-->
+ <div class="container my-4">
+    <h2>Product Container 2</h2>
+    <div id="container2" class="row"></div>
+  </div>
+  <!--discount and sale section-->
+  <div class="dis-container">
+    <h2>Discount and Sale</h2>
+    <div id="container3" class="row2"></div>
+  </div>
+<!--store-->
+ <div id="store-section" class="store">
+  <div class="store-menu">
+      <h2>Featured store</h2>
+      <h2>View all store</h2>
+  </div>
+    <div id="store" class="row2"></div>
+</div>
+
+<div id="store-grid"></div>
+<!--Most selling product-->
+<div class="dis-container">
+    <h2>Discount and Sale</h2>
+    <div id="container3" class="row2"></div>
+  </div>
+
+</div>
+ <script src="js/login.js"></script>
+ <script src="js/index.js"></script>
+ <script src="js/product.js" ></script>
+  <script src="js/discount-sale.js" ></script>
+  <script src="js/store.js"></script>
+</body>
+</html>
